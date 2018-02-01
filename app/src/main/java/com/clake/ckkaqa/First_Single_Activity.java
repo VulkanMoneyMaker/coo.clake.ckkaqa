@@ -8,8 +8,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.db.tables.OrderTable;
+
+import coo.clake.ckkaqa.R;
 
 
 public class First_Single_Activity extends AppCompatActivity implements ShowPredictionsView{

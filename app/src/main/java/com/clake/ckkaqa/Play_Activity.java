@@ -20,7 +20,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.play_items.src.kankan.wheel.widget.OnWheelScrollListener;
 import com.clake.ckkaqa.play_items.src.kankan.wheel.widget.WheelView;
 
@@ -30,6 +29,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Random;
+
+import coo.clake.ckkaqa.R;
 
 public class Play_Activity extends AppCompatActivity implements OnWheelScrollListener {
     private static final String TAG = Play_Activity.class.getSimpleName();

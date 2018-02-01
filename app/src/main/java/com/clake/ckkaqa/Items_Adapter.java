@@ -8,10 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.play_items.src.kankan.wheel.widget.adapters.AbstractWheelAdapter;
 
 import java.util.ArrayList;
+
+import coo.clake.ckkaqa.R;
 
 
 public class Items_Adapter extends AbstractWheelAdapter {

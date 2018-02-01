@@ -36,8 +36,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.play_items.src.kankan.wheel.widget.adapters.WheelViewAdapter;
+
+import coo.clake.ckkaqa.R;
 
 
 /**
@@ -698,7 +699,6 @@ public class WheelView extends View {
 		
 	/**
 	 * Scroll the wheel
-	 * @param itemsToSkip items to scroll
 	 * @param time scrolling duration
 	 */
 	public void scroll(int itemsToScroll, int time) {

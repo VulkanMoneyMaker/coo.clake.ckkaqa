@@ -6,10 +6,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.network.NetworkDelegat;
 import com.clake.ckkaqa.network.model.CasinoModel;
 
+import coo.clake.ckkaqa.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

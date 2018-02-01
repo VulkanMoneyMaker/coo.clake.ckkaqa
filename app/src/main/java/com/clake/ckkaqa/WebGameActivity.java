@@ -11,7 +11,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.clake.ckkaqa.coo.R;
+import coo.clake.ckkaqa.R;
 
 
 public class WebGameActivity extends Activity {

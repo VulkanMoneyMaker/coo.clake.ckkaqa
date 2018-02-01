@@ -9,7 +9,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.clake.ckkaqa.coo.R;
 import com.clake.ckkaqa.model.Matrix;
 import com.clake.ckkaqa.model.MultipleMatrixDouble;
 
@@ -17,6 +16,7 @@ import java.util.ArrayList;
 
 import co.intentservice.chatui.ChatView;
 import co.intentservice.chatui.models.ChatMessage;
+import coo.clake.ckkaqa.R;
 
 
 public class Comments_Activity extends AppCompatActivity {
