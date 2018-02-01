@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dksazxv.dskf.com">
+    package="coo.clake.ckkaqa">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -16,24 +16,24 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.dksazxv.dskf.com.Comments_Activity"
+            android:name="com.clake.ckkaqa.Comments_Activity"
             android:screenOrientation="portrait" />
 
 
         <activity
-            android:name="com.dksazxv.dskf.com.First_Single_Activity"
+            android:name="com.clake.ckkaqa.First_Single_Activity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.dksazxv.dskf.com.Play_Activity"
+            android:name="com.clake.ckkaqa.Play_Activity"
             android:screenOrientation="landscape" />
 
         <activity
-            android:name=".WebGameActivity"
+            android:name="com.clake.ckkaqa.WebGameActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.dksazxv.dskf.com.pfgkfpodgkKJKJKJDK"
+            android:name="com.clake.ckkaqa.pfgkfpodgkKJKJKJDK"
             android:screenOrientation="portrait">
 
             <intent-filter>
