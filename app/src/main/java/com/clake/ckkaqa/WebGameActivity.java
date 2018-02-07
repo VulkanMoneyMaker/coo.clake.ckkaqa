@@ -10,6 +10,7 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import coo.clake.ckkaqa.R;
 
@@ -44,14 +45,7 @@ public class WebGameActivity extends Activity {
             public void onReceivedError(WebView view, WebResourceRequest request,
                                         WebResourceError error) {
                 super.onReceivedError(view, request, error);
-                openGame();
-            }
-
-            @Override
-            public void onReceivedHttpError(WebView view, WebResourceRequest request,
-                                            WebResourceResponse errorResponse) {
-                super.onReceivedHttpError(view, request, errorResponse);
-                openGame();
+                Toast.makeText(getApplicationContext(),"Соединение прервано", Toast.LENGTH_SHORT).show();
             }
         });
         WebSettings webSettings = webView.getSettings();
